@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="model" size="1731,2013" id="it.polimi.dei.provafinale.carcassone.model" metadata="uml2-1.0" initialized="true" zoom="0.16639654240950838" tag="1000" key="32303037303533312D313030302031303332323631322F4D617474656F">
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.2/@sourceConnections.1 //@children.1/@sourceConnections.0" name="Color" location="362,1500" size="109,143" id="it.polimi.dei.provafinale.carcassone.model/Color" runTimeClassModel="BLUE%,GREEN%,YELLOW%,BLACK%,RED%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,90">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="BLUE" id="it.polimi.dei.provafinale.carcassone.model/Color#BLUE%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="RED" id="it.polimi.dei.provafinale.carcassone.model/Color#RED%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="BLACK" id="it.polimi.dei.provafinale.carcassone.model/Color#BLACK%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="YELLOW" id="it.polimi.dei.provafinale.carcassone.model/Color#YELLOW%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="GREEN" id="it.polimi.dei.provafinale.carcassone.model/Color#GREEN%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.4/@sourceConnections.1" name="TileArea" location="1080,1440" size="211,338" id="it.polimi.dei.provafinale.carcassone.model/TileArea" runTimeClassModel="getAreaFlag(),TileArea(Ljava.lang.String;),hasSameType(Lit.polimi.dei.provafinale.carcassone.model.TileArea;),isChosenArea(Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;),toString(),areaPosition,areaFlag,is(Lit.polimi.dei.provafinale.carcassone.model.FieldType;),areaType,getAreaType(),getAreaPosition(),equals(Ljava.lang.Object;),hashCode(),hasFlag()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="areaFlag" id="it.polimi.dei.provafinale.carcassone.model/TileArea#areaFlag"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="areaPosition" id="it.polimi.dei.provafinale.carcassone.model/TileArea#areaPosition"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="areaType" id="it.polimi.dei.provafinale.carcassone.model/TileArea#areaType"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,234">
+      <children xsi:type="editmodel:MethodEditModel" name="TileArea" id="it.polimi.dei.provafinale.carcassone.model/TileArea#TileArea(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="it.polimi.dei.provafinale.carcassone.model/TileArea#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAreaFlag" id="it.polimi.dei.provafinale.carcassone.model/TileArea#getAreaFlag()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAreaPosition" id="it.polimi.dei.provafinale.carcassone.model/TileArea#getAreaPosition()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAreaType" id="it.polimi.dei.provafinale.carcassone.model/TileArea#getAreaType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasFlag" id="it.polimi.dei.provafinale.carcassone.model/TileArea#hasFlag()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasSameType" id="it.polimi.dei.provafinale.carcassone.model/TileArea#hasSameType(Lit.polimi.dei.provafinale.carcassone.model.TileArea;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="it.polimi.dei.provafinale.carcassone.model/TileArea#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isChosenArea" id="it.polimi.dei.provafinale.carcassone.model/TileArea#isChosenArea(Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="it.polimi.dei.provafinale.carcassone.model/TileArea#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="is" id="it.polimi.dei.provafinale.carcassone.model/TileArea#getAreaType(Lit.polimi.dei.provafinale.carcassone.model.FieldType;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="it.polimi.dei.provafinale.carcassone.model/TileArea->Standard::Call" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,131" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,71"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Player" location="50,1189" size="152,355" id="it.polimi.dei.provafinale.carcassone.model/Player" runTimeClassModel="hasMoreFlags(),placeFlag(),addPoints(I),getCurrentTile(),getAvailableFlags(),getPoints(),currentTile,setCurrentTile(Lit.polimi.dei.provafinale.carcassone.model.Tile;),flagColor,receiveFlag(),Player(Lit.polimi.dei.provafinale.carcassone.model.Color;),setPoints(I),hashCode(),equals(Ljava.lang.Object;),points,getFlagColor(),availableFlags">
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="availableFlags" id="it.polimi.dei.provafinale.carcassone.model/Player#availableFlags"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="currentTile" id="it.polimi.dei.provafinale.carcassone.model/Player#currentTile"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="flagColor" id="it.polimi.dei.provafinale.carcassone.model/Player#flagColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="points" id="it.polimi.dei.provafinale.carcassone.model/Player#points"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,234">
+      <children xsi:type="editmodel:MethodEditModel" name="getAvailableFlags" id="it.polimi.dei.provafinale.carcassone.model/Player#getAvailableFlags()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCurrentTile" id="it.polimi.dei.provafinale.carcassone.model/Player#getCurrentTile()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFlagColor" id="it.polimi.dei.provafinale.carcassone.model/Player#getFlagColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPoints" id="it.polimi.dei.provafinale.carcassone.model/Player#getPoints()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCurrentTile" id="it.polimi.dei.provafinale.carcassone.model/Player#setCurrentTile(Lit.polimi.dei.provafinale.carcassone.model.Tile;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPoints" id="it.polimi.dei.provafinale.carcassone.model/Player#setPoints(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPoints" id="it.polimi.dei.provafinale.carcassone.model/Player#addPoints(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receiveFlag" id="it.polimi.dei.provafinale.carcassone.model/Player#receiveFlag()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="it.polimi.dei.provafinale.carcassone.model/Player#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="it.polimi.dei.provafinale.carcassone.model/Player#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasMoreFlags" id="it.polimi.dei.provafinale.carcassone.model/Player#hasMoreFlags()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Player" id="it.polimi.dei.provafinale.carcassone.model/Player#Player(Lit.polimi.dei.provafinale.carcassone.model.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="placeFlag" id="it.polimi.dei.provafinale.carcassone.model/Player#placeFlag()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="it.polimi.dei.provafinale.carcassone.model/Player-Soyatec::Import->it.polimi.dei.provafinale.carcassone.model/Tile" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="152,142" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,194"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="it.polimi.dei.provafinale.carcassone.model/Player->Soyatec::Import" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="152,333" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,22"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Map" location="1345,909" size="191,319" id="it.polimi.dei.provafinale.carcassone.model/Map" runTimeClassModel="Map(),putTileInPosition(Lit.polimi.dei.provafinale.carcassone.model.Position;Lit.polimi.dei.provafinale.carcassone.model.Tile;),generateTrack(Lit.polimi.dei.provafinale.carcassone.model.TileArea;Lit.polimi.dei.provafinale.carcassone.model.Position;),removePosition(Lit.polimi.dei.provafinale.carcassone.model.Position;),isAvailable(Lit.polimi.dei.provafinale.carcassone.model.Position;),getAllAvailablePositions(),getAllPlacedPositions(),toTextualRepresentation(),isPlaced(Lit.polimi.dei.provafinale.carcassone.model.Position;),addPosition(Lit.polimi.dei.provafinale.carcassone.model.Position;),isPlaceable(Lit.polimi.dei.provafinale.carcassone.model.Tile;),getTileFromPosition(Lit.polimi.dei.provafinale.carcassone.model.Position;),isPlaceableWithRotations(Lit.polimi.dei.provafinale.carcassone.model.Tile;),isSuitable(Lit.polimi.dei.provafinale.carcassone.model.Position;Lit.polimi.dei.provafinale.carcassone.model.Tile;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="168,270">
+      <children xsi:type="editmodel:MethodEditModel" name="Map" id="it.polimi.dei.provafinale.carcassone.model/Map#Map()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPosition" id="it.polimi.dei.provafinale.carcassone.model/Map#addPosition(Lit.polimi.dei.provafinale.carcassone.model.Position;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAllAvailablePositions" id="it.polimi.dei.provafinale.carcassone.model/Map#getAllAvailablePositions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTileFromPosition" id="it.polimi.dei.provafinale.carcassone.model/Map#getTileFromPosition(Lit.polimi.dei.provafinale.carcassone.model.Position;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="putTileInPosition" id="it.polimi.dei.provafinale.carcassone.model/Map#putTileInPosition(Lit.polimi.dei.provafinale.carcassone.model.Position;Lit.polimi.dei.provafinale.carcassone.model.Tile;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removePosition" id="it.polimi.dei.provafinale.carcassone.model/Map#removePosition(Lit.polimi.dei.provafinale.carcassone.model.Position;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generateTrack" id="it.polimi.dei.provafinale.carcassone.model/Map#generateTrack(Lit.polimi.dei.provafinale.carcassone.model.TileArea;Lit.polimi.dei.provafinale.carcassone.model.Position;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isPlaced" id="it.polimi.dei.provafinale.carcassone.model/Map#isPlaced(Lit.polimi.dei.provafinale.carcassone.model.Position;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="exploreTrack" id="it.polimi.dei.provafinale.carcassone.model/Map#exploreTrack(Lit.polimi.dei.provafinale.carcassone.model.Track;Lit.polimi.dei.provafinale.carcassone.model.TileArea;Lit.polimi.dei.provafinale.carcassone.model.Position;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toTextualRepresentation" id="it.polimi.dei.provafinale.carcassone.model/Map#toTextualRepresentation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAllPlacedPositions" id="it.polimi.dei.provafinale.carcassone.model/Map#getAllPlacedPositions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isPlaceable" id="it.polimi.dei.provafinale.carcassone.model/Map#isPlaceable(Lit.polimi.dei.provafinale.carcassone.model.Tile;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isPlaceableWithRotations" id="it.polimi.dei.provafinale.carcassone.model/Map#isPlaceableWithRotations(Lit.polimi.dei.provafinale.carcassone.model.Tile;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAvailable" id="it.polimi.dei.provafinale.carcassone.model/Map#isAvailable(Lit.polimi.dei.provafinale.carcassone.model.Position;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSuitable" id="it.polimi.dei.provafinale.carcassone.model/Map#isSuitable(Lit.polimi.dei.provafinale.carcassone.model.Position;Lit.polimi.dei.provafinale.carcassone.model.Tile;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="it.polimi.dei.provafinale.carcassone.model/Map->Standard::Call" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,319" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.9/@sourceConnections.0" name="Tile" location="694,1137" size="191,337" id="it.polimi.dei.provafinale.carcassone.model/Tile" runTimeClassModel="removeFlag(),toInternalRepresentation(),putFlag(Lit.polimi.dei.provafinale.carcassone.model.Color;Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;),getTileArea(Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;),isCompatible(Lit.polimi.dei.provafinale.carcassone.model.Tile;Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;),Tile(Ljava.lang.String;),toTextualRepresentation(),toString(),getFlag(),getIndipendentAreas(),getConnectedAreas(Lit.polimi.dei.provafinale.carcassone.model.TileArea;),rotate(),equals(Ljava.lang.Object;),hashCode(),getTileConnection(Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;),hasFlag()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="168,288">
+      <children xsi:type="editmodel:MethodEditModel" name="Tile" id="it.polimi.dei.provafinale.carcassone.model/Tile#Tile(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="it.polimi.dei.provafinale.carcassone.model/Tile#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getConnectedAreas" id="it.polimi.dei.provafinale.carcassone.model/Tile#getConnectedAreas(Lit.polimi.dei.provafinale.carcassone.model.TileArea;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTileArea" id="it.polimi.dei.provafinale.carcassone.model/Tile#getTileArea(Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTileConnection" id="it.polimi.dei.provafinale.carcassone.model/Tile#getTileConnection(Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="it.polimi.dei.provafinale.carcassone.model/Tile#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCompatible" id="it.polimi.dei.provafinale.carcassone.model/Tile#isCompatible(Lit.polimi.dei.provafinale.carcassone.model.Tile;Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rotate" id="it.polimi.dei.provafinale.carcassone.model/Tile#rotate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="it.polimi.dei.provafinale.carcassone.model/Tile#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toTextualRepresentation" id="it.polimi.dei.provafinale.carcassone.model/Tile#toTextualRepresentation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIndipendentAreas" id="it.polimi.dei.provafinale.carcassone.model/Tile#getIndipendentAreas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="putFlag" id="it.polimi.dei.provafinale.carcassone.model/Tile#putFlag(Lit.polimi.dei.provafinale.carcassone.model.Color;Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFlag" id="it.polimi.dei.provafinale.carcassone.model/Tile#getFlag()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeFlag" id="it.polimi.dei.provafinale.carcassone.model/Tile#removeFlag()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toInternalRepresentation" id="it.polimi.dei.provafinale.carcassone.model/Tile#toInternalRepresentation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasFlag" id="it.polimi.dei.provafinale.carcassone.model/Tile#hasFlag()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="it.polimi.dei.provafinale.carcassone.model/Tile->Standard::Call" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,236" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,32"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="it.polimi.dei.provafinale.carcassone.model/Tile->Standard::Call" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="191,319" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,16"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Position" location="1502,369" size="209,374" id="it.polimi.dei.provafinale.carcassone.model/Position" runTimeClassModel="Position(Ljava.lang.String;),generateNeighbours(),coordinateX,generateNeighbour(Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;),coordinateY,getCoordinateX(),Position(II),hasRelativePositionRespect(Lit.polimi.dei.provafinale.carcassone.model.Position;),toString(),getCoordinateY(),equals(Ljava.lang.Object;),hashCode(),distance(Lit.polimi.dei.provafinale.carcassone.model.Position;),isNear(Lit.polimi.dei.provafinale.carcassone.model.Position;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="coordinateX" id="it.polimi.dei.provafinale.carcassone.model/Position#coordinateX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="coordinateY" id="it.polimi.dei.provafinale.carcassone.model/Position#coordinateY"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="186,216">
+      <children xsi:type="editmodel:MethodEditModel" name="Position" id="it.polimi.dei.provafinale.carcassone.model/Position#Position(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="distance" id="it.polimi.dei.provafinale.carcassone.model/Position#distance(Lit.polimi.dei.provafinale.carcassone.model.Position;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="it.polimi.dei.provafinale.carcassone.model/Position#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="it.polimi.dei.provafinale.carcassone.model/Position#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasRelativePositionRespect" id="it.polimi.dei.provafinale.carcassone.model/Position#hasRelativePositionRespect(Lit.polimi.dei.provafinale.carcassone.model.Position;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generateNeighbour" id="it.polimi.dei.provafinale.carcassone.model/Position#generateNeighbour(Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generateNeighbours" id="it.polimi.dei.provafinale.carcassone.model/Position#generateNeighbours()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCoordinateY" id="it.polimi.dei.provafinale.carcassone.model/Position#getCoordinateY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="it.polimi.dei.provafinale.carcassone.model/Position#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Position" id="it.polimi.dei.provafinale.carcassone.model/Position#Position(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCoordinateX" id="it.polimi.dei.provafinale.carcassone.model/Position#getCoordinateX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isNear" id="it.polimi.dei.provafinale.carcassone.model/Position#isNear(Lit.polimi.dei.provafinale.carcassone.model.Position;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.8/@sourceConnections.1" name="ConnectionType" location="120,540" size="157,89" id="it.polimi.dei.provafinale.carcassone.model/ConnectionType" runTimeClassModel="NOTPRESENT%,PRESENT%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,36">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="PRESENT" id="it.polimi.dei.provafinale.carcassone.model/ConnectionType#PRESENT%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="NOTPRESENT" id="it.polimi.dei.provafinale.carcassone.model/ConnectionType#NOTPRESENT%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.8/@sourceConnections.0" name="CardinalPosition" location="979,658" size="161,125" id="it.polimi.dei.provafinale.carcassone.model/CardinalPosition" runTimeClassModel="SOUTH%,EAST%,NORTH%,WEST%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,72">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="NORTH" id="it.polimi.dei.provafinale.carcassone.model/CardinalPosition#NORTH%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="SOUTH" id="it.polimi.dei.provafinale.carcassone.model/CardinalPosition#SOUTH%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="EAST" id="it.polimi.dei.provafinale.carcassone.model/CardinalPosition#EAST%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="WEST" id="it.polimi.dei.provafinale.carcassone.model/CardinalPosition#WEST%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TileConnection" location="470,540" size="168,230" id="it.polimi.dei.provafinale.carcassone.model/TileConnection" runTimeClassModel="getFromPosition(),isPresent(),getToPosition(),equals(Ljava.lang.Object;),isChosenConnection(Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;),hashCode(),getConnectionType(),TileConnection(Ljava.lang.String;),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,180">
+      <children xsi:type="editmodel:MethodEditModel" name="TileConnection" id="it.polimi.dei.provafinale.carcassone.model/TileConnection#TileConnection(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="it.polimi.dei.provafinale.carcassone.model/TileConnection#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getConnectionType" id="it.polimi.dei.provafinale.carcassone.model/TileConnection#getConnectionType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFromPosition" id="it.polimi.dei.provafinale.carcassone.model/TileConnection#getFromPosition()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToPosition" id="it.polimi.dei.provafinale.carcassone.model/TileConnection#getToPosition()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isChosenConnection" id="it.polimi.dei.provafinale.carcassone.model/TileConnection#isChosenConnection(Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;Lit.polimi.dei.provafinale.carcassone.model.CardinalPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="it.polimi.dei.provafinale.carcassone.model/TileConnection#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="it.polimi.dei.provafinale.carcassone.model/TileConnection#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isPresent" id="it.polimi.dei.provafinale.carcassone.model/TileConnection#isPresent()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="it.polimi.dei.provafinale.carcassone.model/TileConnection->Standard::Call" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="168,173" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,55"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="it.polimi.dei.provafinale.carcassone.model/TileConnection->Standard::Call" source="//@children.8" target="//@children.6" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Access, Import»" size="107,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,44" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="157,44"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Deck" location="540,1635" size="128,211" id="it.polimi.dei.provafinale.carcassone.model/Deck" runTimeClassModel="contains(Lit.polimi.dei.provafinale.carcassone.model.Tile;),removeTile(I),add(Lit.polimi.dei.provafinale.carcassone.model.Tile;),isEmpty(),drawTile(),size(),search(Lit.polimi.dei.provafinale.carcassone.model.Tile;),shuffle(),Deck()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,162">
+      <children xsi:type="editmodel:MethodEditModel" name="shuffle" id="it.polimi.dei.provafinale.carcassone.model/Deck#shuffle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="it.polimi.dei.provafinale.carcassone.model/Deck#contains(Lit.polimi.dei.provafinale.carcassone.model.Tile;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEmpty" id="it.polimi.dei.provafinale.carcassone.model/Deck#isEmpty()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="size" id="it.polimi.dei.provafinale.carcassone.model/Deck#size()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="search" id="it.polimi.dei.provafinale.carcassone.model/Deck#search(Lit.polimi.dei.provafinale.carcassone.model.Tile;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="it.polimi.dei.provafinale.carcassone.model/Deck#add(Lit.polimi.dei.provafinale.carcassone.model.Tile;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Deck" id="it.polimi.dei.provafinale.carcassone.model/Deck#Deck()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeTile" id="it.polimi.dei.provafinale.carcassone.model/Deck#removeTile(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawTile" id="it.polimi.dei.provafinale.carcassone.model/Deck#drawTile()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="it.polimi.dei.provafinale.carcassone.model/Deck-Soyatec::Import->it.polimi.dei.provafinale.carcassone.model/Tile" source="//@children.9" target="//@children.4" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="23,337"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" name="FieldType" location="780,1635" size="110,107" id="it.polimi.dei.provafinale.carcassone.model/FieldType" runTimeClassModel="STREET%,FIELD%,TOWN%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="62,54">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="STREET" id="it.polimi.dei.provafinale.carcassone.model/FieldType#STREET%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="FIELD" id="it.polimi.dei.provafinale.carcassone.model/FieldType#FIELD%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="TOWN" id="it.polimi.dei.provafinale.carcassone.model/FieldType#TOWN%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=5;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

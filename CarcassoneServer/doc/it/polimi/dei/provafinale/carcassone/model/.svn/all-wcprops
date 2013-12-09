@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model
+END
+ConnectionType.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/ConnectionType.html
+END
+ConnectionTypeTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/ConnectionTypeTest.html
+END
+Track.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/Track.html
+END
+TrackTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/TrackTest.html
+END
+DeckBuilder.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/DeckBuilder.html
+END
+DeckBuilderTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/DeckBuilderTest.html
+END
+RemovedPlayer.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/RemovedPlayer.html
+END
+AbstractPlayer.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/AbstractPlayer.html
+END
+AbstractTile.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/AbstractTile.html
+END
+MapBuilder.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/MapBuilder.html
+END
+TileArea.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/TileArea.html
+END
+TileAreaTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/TileAreaTest.html
+END
+ModelMap.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/ModelMap.html
+END
+ModelMapTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/ModelMapTest.html
+END
+PieceOfTrackTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/PieceOfTrackTest.html
+END
+PieceOfTrack.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/PieceOfTrack.html
+END
+AbstractMap.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/AbstractMap.html
+END
+CardinalPosition.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/CardinalPosition.html
+END
+CardinalPositionTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/CardinalPositionTest.html
+END
+Position.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/Position.html
+END
+PositionTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/PositionTest.html
+END
+PlacedTile.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/PlacedTile.html
+END
+Deck.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/Deck.html
+END
+DeckTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/DeckTest.html
+END
+GameTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/GameTest.html
+END
+Game.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/Game.html
+END
+DisplayedMap.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/DisplayedMap.html
+END
+DisplayedMapTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/DisplayedMapTest.html
+END
+TileConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/TileConnection.html
+END
+TileConnectionTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/TileConnectionTest.html
+END
+ModelPlayerTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/ModelPlayerTest.html
+END
+ModelPlayer.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/ModelPlayer.html
+END
+Color.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/Color.html
+END
+ColorTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/ColorTest.html
+END
+ModelTileTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/ModelTileTest.html
+END
+ModelTile.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/ModelTile.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/package-frame.html
+END
+FieldTypeTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/FieldTypeTest.html
+END
+FieldType.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/FieldType.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/package-tree.html
+END
+DisplayedPlayer.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/DisplayedPlayer.html
+END
+DisplayedTileTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/DisplayedTileTest.html
+END
+DisplayedTile.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/10322612/!svn/ver/187/10322612/CarcassoneServer/doc/it/polimi/dei/provafinale/carcassone/model/DisplayedTile.html
+END
